@@ -40,13 +40,13 @@ class Admin extends Moderator {
         console.log(user);
     }
 }
-    let user1= new User('kunj',24,'kunj@gmail.com')
+    let user1= new User('Aswin',24,'aswin@gmail.com')
     user1.login().addcoins().addcoins()
 
-    let user2= new User('shah',25,'shah@gmail.com')
+    let user2= new User('kumar',25,'kumar@gmail.com')
     user2.login().addcoins().addcoins().addcoins().addcoins()
 
-    let mod = new Moderator('Samir',36,'samir@upgrade.com')
+    let mod = new Moderator('Karthick',36,'samir@upgrade.com')
 
     let admin = new Admin('Riya',40,'riya@letsupgrade.com')
 
